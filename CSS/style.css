@@ -64,8 +64,15 @@ header nav .right a{
     margin:1rem auto;
 }
 .hero .right p{
-    
+    margin: auto;
 }
+.hero .right p span{
+    color:var(--dark);
+    font-size: 2rem;
+    font-weight: 600;
+
+}
+
 .hero .left{
     margin-top:2.5rem;
 }
