@@ -64,7 +64,12 @@ header nav .right a{
     margin:1rem auto;
 }
 .hero .right p{
+<<<<<<< HEAD
     margin: auto;
+=======
+    display: inline-block;
+    padding-right:20rem;
+>>>>>>> 4fad71cf5571607b8be6d48e9681c452a736b114
 }
 .hero .right p span{
     color:var(--dark);
