@@ -25,13 +25,15 @@ header nav{
 }
 header nav .branding{
     font-size: 1.5rem;
+    font-family: Poppins;
     font-weight: 600;
 
 }
 header nav .right a{
     color: var(--dark);
     font-family: Montserrat;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
+    font-weight: 600;
     margin-right: 2rem;
     text-transform: uppercase;
     text-decoration: none;
@@ -44,7 +46,7 @@ header nav .right a{
     margin-top: 4rem;
 }
 .hero .right .herorect {
-    background-color: var(--dark);
+    background-color: var(--primary);
     width: 0.2rem;
     height: 2.9rem;
     border-radius: 4px;
@@ -55,6 +57,15 @@ header nav .right a{
     font-weight: 600;  
     font-size: 2rem;
 }
-/* .hero .right .quotes{
-    padding: 2rem auto;
-} */
+.hero .right h1{
+    font-family: Montserrat;
+    font-weight: 600;  
+    font-size: 4rem;
+    margin:1rem auto;
+}
+.hero .right p{
+    
+}
+.hero .left{
+    margin-top:2.5rem;
+}
