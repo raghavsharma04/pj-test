@@ -64,7 +64,8 @@ header nav .right a{
     margin:1rem auto;
 }
 .hero .right p{
-    
+    display: inline-block;
+    padding-right:20rem;
 }
 .hero .left{
     margin-top:2.5rem;
