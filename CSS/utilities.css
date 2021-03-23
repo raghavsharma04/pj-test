@@ -21,8 +21,27 @@
     cursor: pointer;
     text-transform: uppercase;
     transition: all 350ms ease;
-    margin-right: 1rem;
+    margin-right: 1.5rem;
+    
 }
+.btn2{
+    width:130px;
+    height:40px;
+    font-family: Montserrat;
+    font-size: 0.9rem;
+    font-weight: 400;
+    border: 2.5px solid transparent;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 350ms ease;
+    margin-right: 1.5rem;
+    margin-top: 4rem;
+    
+}
+
+
 .btn-primary{
     background: var(--primary);
     color: var(--pure);

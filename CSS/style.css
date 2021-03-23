@@ -100,6 +100,54 @@ header nav .right a{
      font-weight: 400;
      position: relative;
      left: 600px;
-     top: 20px;
-    
+     top: 20px;  
  }
+ .video{
+     background-color: #161616;
+ }
+ section .section-heading{
+     font-size: 2.5rem;
+     font-weight: 100;
+     font-family: Poppins;
+     color: var(--pure);
+     text-align: center;
+ }
+ section .section-heading span{
+     color: var(--primary);
+ }
+ section .connect{
+     margin: 4rem auto;
+     padding: 5rem auto;
+ }
+ section .connect .avv{
+     align-items: center;
+ }
+ section .avv h3{
+     color: var(--primary);
+     margin: 40px auto;
+     text-align: center;
+     font-size: 2.5rem;
+ }
+ section .container .msg{
+     margin: 3rem;
+ }
+ section .container .msg h2{
+     font-size: 1rem;
+     font-weight: 100;
+ }
+ section .container .msg span{
+     text-transform: uppercase;
+     color: var(--primary);
+     font-size: 1.8rem;
+     font-weight: 600;
+ }
+ .appreciate{
+     background-color: var(--primary);
+ }
+ section .heading2{
+    font-size: 2.5rem;
+    font-weight: 100;
+    font-family: Poppins;
+    color: var(--pure);
+    text-align: center;
+}
