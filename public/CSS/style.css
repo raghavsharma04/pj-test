@@ -160,7 +160,7 @@ section .rectOutr{
     background-color: var(--primary);
     position: relative;
     width: fit-width;
-    margin: 5rem auto  ;
+    margin: 2rem auto  ;
 }
 section .rectOutr .rectInner{
     height: 577px;
