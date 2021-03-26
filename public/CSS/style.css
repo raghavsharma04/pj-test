@@ -13,7 +13,6 @@ body{
 *{
     padding: 0;
     margin: 0;
-
 }
 .container{
     max-width: 1300px;
@@ -27,7 +26,6 @@ header nav .branding{
     font-size: 1.5rem;
     font-family: Poppins;
     font-weight: 600;
-
 }
 header nav .right a{
     color: var(--dark);
@@ -150,4 +148,41 @@ header nav .right a{
     font-family: Poppins;
     color: var(--pure);
     text-align: center;
+}
+section{
+    margin-top: 2px;
+    background-color: var(--pure);
+    
+}
+section .rectOutr{
+    height: 620px;
+    border-radius: 5px;
+    background-color: var(--primary);
+    position: relative;
+    width: fit-width;
+    margin: 5rem auto  ;
+}
+section .rectOutr .rectInner{
+    height: 577px;
+    border-radius: 8px;
+    background-color: var(--pure);
+    position: relative;
+    left: 38%;
+    top: 3%;
+    width: 524px;
+    
+}
+section .rectOutr .rectInner .login{  
+    text-align:center;    
+    padding: 20px;  
+}
+section .rectOutr .rectInner .login h2{
+    /* text-align: center; */
+    color: var(--primary);
+}
+
+section .rectOutr .rectInner form{
+    border: 3px solid #f1f1f1;   
+    align-items: center;
+    color: var(--dark);
 }
