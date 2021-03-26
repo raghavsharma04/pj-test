@@ -172,17 +172,23 @@ section .rectOutr .rectInner{
     width: 524px;
     
 }
-section .rectOutr .rectInner .login{  
+
+section .rectOutr .rectInner .login h2{
+    text-align: center;
+    color: var(--primary);
+    padding: 2rem auto; 
+}
+/* section .rectOutr .rectInner .login{  
     text-align:center;    
-    padding: 20px;  
+    padding: 2rem auto; 
 }
 section .rectOutr .rectInner .login h2{
     /* text-align: center; */
-    color: var(--primary);
-}
+    /* color: var(--primary);
+} */
 
-section .rectOutr .rectInner form{
+/* section .rectOutr .rectInner form{
     border: 3px solid #f1f1f1;   
     align-items: center;
     color: var(--dark);
-}
+} */
