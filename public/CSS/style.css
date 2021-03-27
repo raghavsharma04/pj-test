@@ -24,7 +24,7 @@ header nav{
 }
 header nav .branding{
     font-size: 1.5rem;
-    font-family: Poppins;
+    font-family: Raleway;
     font-weight: 600;
 }
 header nav .right a{
@@ -171,22 +171,22 @@ section .rectOutr .rectInner{
     top: 3%;
     width: 524px;    
 }
-section .rectOutr .rectInner .login h2{
-    text-align: center;
-    color: var(--primary);
-    padding: 2rem auto; 
-}
+
 section .rectOutr .rectInner .login{  
-    text-align:left ;    
-    padding: 2rem auto; 
+    padding: 1rem;
+    justify-content: center;
+    display: flex;
+}
+section .rectOutr .rectInner h2{
+    font-family: Raleway;
+    color:var(--primary);
+    font-weight: 400;
+    font-size: 42px;
+padding-right: 1.3rem;
 }
 
-/* section .rectOutr .rectInner form{
-    border: 3px solid #f1f1f1;   
-    align-items: center;
-    color: var(--dark);
-} */
 .loginbox {
+    margin-top: 80px;
     width: 320px;
     height: 420px;
     background: var(--pure);
@@ -220,12 +220,12 @@ section .rectOutr .rectInner .login{
   .loginbox input[type="text"],
   input[type="password"] {
     border: 2px solid;
-    border-bottom: 1px solid var(--dark);
     border-radius: 0.3rem;
+    padding: 5px;
     background: transparent;
     outline: none;
-    height: 35px;
-    width: auto;
+    height: 28px;
+    width: 300px;
     color: var(--primary);
     font-size: 16px;
   }
@@ -235,7 +235,6 @@ section .rectOutr .rectInner .login{
     border-color: var(--primary);
     outline: var(--primary);
     height: 40px;
-    /* background: var(--primary); */
     color: var(--dark);
     font-size: 18px;
     border-radius: 20px;
