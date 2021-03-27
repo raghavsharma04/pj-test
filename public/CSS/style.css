@@ -185,7 +185,7 @@ section .rectOutr .rectInner h2{
 padding-right: 1.3rem;
 }
 
-.loginbox {
+section .rectOutr .rectInner .loginbox {
     margin-top: 80px;
     /* width: 320px; */
     height: 420px;
@@ -199,25 +199,25 @@ padding-right: 1.3rem;
     padding: 70px 30px;
 }
   
-  h1 {
+section .rectOutr .rectInner h1 {
     margin: 0;
     padding: 0 0 20px;
     text-align: center;
     font-size: 22px;
   }
   
-  .loginbox p {
+  section .rectOutr .rectInner .loginbox p {
     margin: 0;
     padding: 0;
     font-weight: bold;
   }
   
-  .loginbox input {
+  section .rectOutr .rectInner .loginbox input {
     width: 100%;
     margin-bottom: 20px;
   }
   
-  .loginbox input[type="text"],
+  section .rectOutr .rectInner .loginbox input[type="text"],
   input[type="password"] {
     border: 2px solid;
     border-radius: 0.3rem;
@@ -230,7 +230,7 @@ padding-right: 1.3rem;
     font-size: 16px;
   }
   
-  .loginbox input[type="submit"] {
+  section .rectOutr .rectInner .loginbox input[type="submit"] {
     border: none;
     border-color: var(--primary);
     outline: var(--primary);
@@ -240,8 +240,17 @@ padding-right: 1.3rem;
     border-radius: 20px;
     cursor: pointer;
   }
-section .rectOutr .rectInner .quicklink 
-    h1 {
+  section .rectOutr .rectInner .loginbox .extra a{
+      font-size: 0.7rem;
+      font-weight: 600;
+      justify-content: center;
+      display: flex;
+      color: #000;
+      text-decoration: none;
+      font-family: Montserrat;
+
+  }
+section .rectOutr .rectInner .quicklink h1 {
         overflow: hidden;
         text-align: center;
         font-weight: 200;
@@ -249,8 +258,8 @@ section .rectOutr .rectInner .quicklink
         font-family: Montserrat;
       }
       
-      h1:before,
-      h1:after {
+      section .rectOutr .rectInner .quicklink  h1:before,
+      section .rectOutr .rectInner .quicklink h1:after {
         background-color: #000;
         content: "";
         display: inline-block;
@@ -260,12 +269,12 @@ section .rectOutr .rectInner .quicklink
         width: 35%;
       }
       
-      h1:before {
+      section .rectOutr .rectInner .quicklink h1:before {
         right: 0.5em;
         margin-left: -50%;
       }
       
-      h1:after {
+      section .rectOutr .rectInner .quicklink h1:after {
         left: 0.5em;
         margin-right: -50%;
       }
