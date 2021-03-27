@@ -169,26 +169,76 @@ section .rectOutr .rectInner{
     position: relative;
     left: 38%;
     top: 3%;
-    width: 524px;
-    
+    width: 524px;    
 }
-
 section .rectOutr .rectInner .login h2{
     text-align: center;
     color: var(--primary);
     padding: 2rem auto; 
 }
-/* section .rectOutr .rectInner .login{  
-    text-align:center;    
+section .rectOutr .rectInner .login{  
+    text-align:left ;    
     padding: 2rem auto; 
 }
-section .rectOutr .rectInner .login h2{
-    /* text-align: center; */
-    /* color: var(--primary);
-} */
 
 /* section .rectOutr .rectInner form{
     border: 3px solid #f1f1f1;   
     align-items: center;
     color: var(--dark);
 } */
+.loginbox {
+    width: 320px;
+    height: 420px;
+    background: var(--pure);
+    color: var(--primary);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+  
+  h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+  }
+  
+  .loginbox p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+  }
+  
+  .loginbox input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .loginbox input[type="text"],
+  input[type="password"] {
+    border: 2px solid;
+    border-bottom: 1px solid var(--dark);
+    border-radius: 0.3rem;
+    background: transparent;
+    outline: none;
+    height: 35px;
+    width: auto;
+    color: var(--primary);
+    font-size: 16px;
+  }
+  
+  .loginbox input[type="submit"] {
+    border: none;
+    border-color: var(--primary);
+    outline: var(--primary);
+    height: 40px;
+    /* background: var(--primary); */
+    color: var(--dark);
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
