@@ -8,8 +8,7 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-}
+    font-family: 'Montserrat', sans-serif;}
 *{
     padding: 0;
     margin: 0;
@@ -53,30 +52,66 @@ header nav .right a{
 .hero .right h5{
     font-family: Montserrat;
     font-weight: 600;  
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 .hero .right h1{
     font-family: Montserrat;
     font-weight: 600;  
-    font-size: 4rem;
+    font-size: 3.3rem;
     margin:1rem auto;
 }
 .hero .right p{
     margin: auto;
+    font-size: 1.25rem;
 }
 .hero .right p span{
     color:var(--dark);
-    font-size: 2rem;
+    font-size: 1.2rem;
     font-weight: 600;
 }
 
 .hero .left{
     margin-top:2.5rem;
-}  
- section{
+} 
+.inspire {
+    background-color: #000;
+    align-items: center;
+}
+.inspire .container .content h3{
+    color: var(--pure);
+    text-align: center;
+    font-size: 3.5rem;
+    font-family: Poppins;
+    font-weight: 400;
+    margin-bottom: 5rem;
+}
+.inspire .container .content h3 span{
+    color: #4A47A3;
+    font-size: large;
+    font-size: 3.5rem;
+}
+.inspire .container .content .rect{
+    justify-content: center;
+    background-color: #4040407a;
+    height: 40rem;
+}
+.inspire .container .content .rect h2{
+    text-align: center;
+    color: gray;
+}
+.inspire .container .content .rect img{
+    display: block;
+    margin-top: 15rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6.5rem;
+    height: 6.5rem;
+}
+
+section{
      padding: 6rem 0;
  }
- section .left h1{
+section .left h1{
      color: var(--dark);
      font-size: 2rem;
      font-weight: 600
@@ -86,12 +121,12 @@ header nav .right a{
     font-size: 1.5rem;
     font-weight: 600;
  }
- section .left h3{
+section .left h3{
      font-family: Montserrat;
      font-size: 1rem;
      font-weight: 100;
  }
- section .note{
+section .note{
      color: var(--primary);
      font-family:Montserrat;
      font-size: 1rem;
@@ -122,24 +157,31 @@ header nav .right a{
  }
  section .avv h3{
      color: var(--primary);
-     margin: 40px auto;
+     margin: 2.5rem auto;
      text-align: center;
-     font-size: 2.5rem;
+     font-size: 4.1rem;
+ }
+ .avv img{
+     display: flex;
+     margin-top: 8rem;
+     margin-bottom: 10rem;
+     margin-left: auto;
+     margin-right: auto;
  }
  section .container .msg{
      margin: 3rem;
  }
  section .container .msg h2{
-     font-size: 1rem;
+     font-size: 1.4rem;
      font-weight: 100;
  }
  section .container .msg span{
      text-transform: uppercase;
      color: var(--primary);
-     font-size: 1.8rem;
-     font-weight: 600;
+     font-size: 3.3rem;
+     font-weight: 400;
  }
- .appreciate{
+.appreciate{
      background-color: var(--primary);
  }
  section .heading2{
@@ -148,6 +190,9 @@ header nav .right a{
     font-family: Poppins;
     color: var(--pure);
     text-align: center;
+}
+.cup{
+    opacity: 6;
 }
 section{
     margin-top: 2px;
