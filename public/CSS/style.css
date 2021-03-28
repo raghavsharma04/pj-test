@@ -230,8 +230,8 @@ section .rectOutr .rectInner h2{
 }
 
 section .rectOutr .rectInner .loginbox {
-    margin-top: 80px;
-    height: 420px;
+    margin-top: 60px;
+    height: 300px;
     background: var(--pure);
     color: var(--primary);
     top: 50%;
@@ -257,7 +257,7 @@ section .rectOutr .rectInner .loginbox p {
   
 section .rectOutr .rectInner .loginbox input {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
   
 section .rectOutr .rectInner .loginbox input[type="text"],
@@ -277,7 +277,7 @@ section .rectOutr .rectInner .loginbox input[type="submit"] {
     border: none;
     border-color: var(--primary);
     outline: var(--primary);
-    height: 40px;
+    height: 30px;
     color: var(--dark);
     font-size: 18px;
     border-radius: 20px;
@@ -299,6 +299,7 @@ section .rectOutr .rectInner .quicklink h1 {
         font-weight: 200;
         font-size: 12px;
         font-family: Montserrat;
+        margin-top: 3rem;
 }
       
 section .rectOutr .rectInner .quicklink  h1:before,
@@ -321,7 +322,15 @@ section .rectOutr .rectInner .quicklink h1:after {
         left: 0.5em;
         margin-right: -50%;
 }
-    
+section .rectOutr .rectInner .link{
+    border: none;
+    justify-content: center;
+    padding-left: 2rem;
+    height: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+
+}  
 section .top h1{
     color: var(--primary);
     text-align: center;
