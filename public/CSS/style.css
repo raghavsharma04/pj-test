@@ -26,6 +26,11 @@ header nav .branding{
     font-size: 1.5rem;
     font-family: Raleway;
     font-weight: 600;
+    /* text-decoration: none; */
+}
+header nav .branding a{
+    text-decoration: none;
+    color: var(--dark);
 }
 header nav .right a{
     color: var(--dark);
@@ -42,6 +47,7 @@ header nav .right a{
 }
 .hero{
     margin-top: 4rem;
+    margin-bottom: 6rem;
 }
 .hero .right .herorect {
     background-color: var(--primary);
@@ -74,6 +80,39 @@ header nav .right a{
 .hero .left{
     margin-top:2.5rem;
 } 
+section.clas2{
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+}
+.clas2 .container .left{
+    margin-right: 2.5rem;
+}
+.clas2 .container .left h3{
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.clas2 .container .left h1{
+    font-size: 3.3rem;
+    font-weight: 600;
+    text-align: left;
+}
+.clas2 .container .left h2{
+    font-size: 2.5rem;
+    text-align: left;
+}
+.clas2 .container .left img{
+    margin: 3.5rem 3rem;
+}
+section.clas2 h4{
+    display: flex;
+    justify-content: center;
+    color: var(--primary);
+    font-size: 1.5rem;
+    font-family: Poppins;
+    font-weight: 400;
+}
+
 .inspire {
     background-color: #000;
     align-items: center;
