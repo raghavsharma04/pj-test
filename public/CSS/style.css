@@ -80,34 +80,38 @@ header nav .right a{
 .hero .left{
     margin-top:2.5rem;
 } 
-section.clas2{
+section.profileSection{
     display: flex;
+    flex-direction: row;
     margin-top: 2rem;
     margin-bottom: 6rem;
 }
-.clas2 .container .left{
+/* section.profileSection .clas2Section{
+    flex-direction: column;
+} */
+section.profileSection .left{
     margin-right: 2.5rem;
 }
-.clas2 .container .left h3{
+section.profileSection .left h3{
     font-size: 1.25rem;
     font-weight: 400;
 }
-.clas2 .container .left h1{
+.profileSection  .left h1{
     font-size: 3.3rem;
     font-weight: 600;
     text-align: left;
 }
-.clas2 .container .left h2{
+.profileSection  .left h2{
     font-size: 2.5rem;
     text-align: left;
 }
-.clas2 .container .left img{
+.profileSection  .left img{
     margin: 3.5rem 3rem;
 }
-.clas2 .right{
+/* .profileSection .right{
 
-}
-section.clas2 h4{
+} */
+section.profileSection h4{
     display: flex;
     flex-direction: column;
     margin-right: 1rem;
