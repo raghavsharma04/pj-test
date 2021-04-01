@@ -41,7 +41,7 @@
     cursor: pointer;
     text-transform: uppercase;
     transition: all 350ms ease;
-    margin-right: 1.5rem;
+    margin-right: 1.2rem;
     margin-top: 4rem;
 }
 .btn3{
@@ -54,7 +54,7 @@
     border-radius: 18px;
     outline: none;
     cursor: pointer;
-    margin-right: 1.5rem;
+    margin-right: 1.2rem;
     margin-top: 2rem;
 }
 
