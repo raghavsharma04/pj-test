@@ -389,7 +389,7 @@ section .top h1{
     font-size: 3.3rem;
     font-family: Poppins;
     letter-spacing: 0.15rem;
-    padding: 4rem 1rem;
+    padding: 1rem 2rem;
 }
 section.upload{
     background-color:var(--primary);
@@ -429,3 +429,71 @@ section .rectupload h3 span{
     font-size: 1.2rem;
     font-weight: 600;  
 }
+ section.upload .container{
+    height: 9.5rem;
+    width: 27rem;
+    position: relative;
+  }
+section.upload .wrapper{
+    position: relative;
+    height: 350px;
+    width: 100%;
+    background: var(--primary);
+    border: 2px solid var(--dark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .wrapper .image{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .wrapper img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  /* .wrapper .icon{
+    font-size: 100px;
+    color: #9658fe;
+  } */
+  /* .wrapper .text{
+    font-size: 20px;
+    font-weight: 500;
+    color: #5B5B7B;
+  } */
+  /* .wrapper #cancel-btn i{
+    position: absolute;
+    font-size: 20px;
+    right: 15px;
+    top: 15px;
+    color: #9658fe;
+    cursor: pointer;
+    display: none;
+  } */
+  /* .wrapper #cancel-btn i:hover{
+    color: #e74c3c;
+  } */
+  /* .wrapper .file-name{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding: 8px 0;
+    font-size: 18px;
+    color: #fff;
+    display: none;
+    background: linear-gradient(135deg,#3a8ffe 0%,#9658fe 100%);
+  } */
+  .wrapper.active:hover .file-name{
+    display: block;
+  }
+.wrapper .cstbtn{
+    padding-left: 4rem;
+}
+
+  

@@ -21,8 +21,14 @@
     cursor: pointer;
     text-transform: uppercase;
     transition: all 350ms ease;
-    
 }
+.custom-btn{
+    height: 80px;
+    width: 80px;  
+    border: 0rem;
+    border-radius: 50%;
+    cursor: pointer;
+  }
 .btn2{
     width:130px;
     height:40px;
