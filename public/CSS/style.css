@@ -1,0 +1,522 @@
+@import'utilities.css';
+:root{
+    --primary:#4A47A3;
+    --dark:#161616;
+    --pure:#FFFFFF;
+    --ternary:#898989;
+    --light:#F2F2F2;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    max-width: 1300px;
+    padding: 0 auto;
+    margin: 0 auto;
+}
+header nav{
+    margin-top: 1rem;
+}
+header nav .branding{
+    font-size: 1.5rem;
+    font-family: Raleway;
+    font-weight: 600;
+    /* text-decoration: none; */
+}
+header nav .branding a{
+    text-decoration: none;
+    color: var(--dark);
+}
+header nav .right a{
+    color: var(--dark);
+    font-family: Montserrat;
+    font-size: 0.7rem;
+    font-weight: 600;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.hero .right h1{
+    color: var(--primary);
+    font-family: Poppins;
+}
+.hero{
+    margin-top: 4rem;
+    margin-bottom: 8rem;
+}
+.hero .right .herorect {
+    background-color: var(--primary);
+    width: 0.2rem;
+    height: 2.9rem;
+    border-radius: 4px;
+    margin-right: 0.5rem;
+}
+.hero .right h5{
+    font-family: Montserrat;
+    font-weight: 600;  
+    font-size: 1.6rem;
+}
+.hero .right h1{
+    font-family: Montserrat;
+    font-weight: 600;  
+    font-size: 3.3rem;
+    margin:1rem auto;
+}
+.hero .right p{
+    margin: auto;
+    font-size: 1.25rem;
+}
+.hero .right p span{
+    color:var(--dark);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.hero .left{
+    margin-top:2.5rem;
+} 
+section.profileSection{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+}
+/* section.profileSection .clas2Section{
+    flex-direction: column;
+} */
+section.profileSection .left{
+    margin-right: 2.5rem;
+}
+section.profileSection .left h3{
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.profileSection  .left h1{
+    font-size: 3.3rem;
+    font-weight: 600;
+    text-align: left;
+}
+.profileSection  .left h2{
+    font-size: 2.5rem;
+    text-align: left;
+}
+.profileSection  .left img{
+    margin: 3.5rem 3rem;
+}
+/* .profileSection .right{
+<<<<<<< HEAD
+=======
+
+>>>>>>> c24416c4d2a79e709eb739ccddeea789348631fa
+} */
+section.profileSection h4{
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+    color: var(--primary);
+    font-size: 1.5rem;
+    font-family: Poppins;
+    font-weight: 400;
+    word-spacing: 1rem;
+}
+
+.inspire {
+    background-color: #000;
+    align-items: center;
+}
+.inspire .container .content h3{
+    color: var(--pure);
+    text-align: center;
+    font-size: 3.5rem;
+    font-family: Poppins;
+    font-weight: 400;
+    margin-bottom: 5rem;
+}
+.inspire .container .content h3 span{
+    color: #4A47A3;
+    font-size: large;
+    font-size: 3.5rem;
+}
+.inspire .container .content .rect{
+    justify-content: center;
+    background-color: #4040407a;
+    height: 40rem;
+}
+.inspire .container .content .rect h2{
+    text-align: center;
+    color: gray;
+}
+.inspire .container .content .rect img{
+    display: block;
+    margin-top: 15rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6.5rem;
+    height: 6.5rem;
+}
+
+section.inspire {
+     padding: 6rem 0;
+ }
+section .left h1{
+     color: var(--dark);
+     font-size: 2rem;
+     font-weight: 600
+ } 
+ section .left h2{
+    color: var(--primary);
+    font-size: 1.5rem;
+    font-weight: 600;
+ }
+section .left h3{
+     font-family: Montserrat;
+     font-size: 1rem;
+     font-weight: 100;
+ }
+section .note{
+     color: var(--primary);
+     font-family:Montserrat;
+     font-size: 1rem;
+     font-weight: 400;
+     position: relative;
+     left: 600px;
+     top: 20px;  
+ }
+
+ section .section-heading{
+     font-size: 2.5rem;
+     font-weight: 100;
+     font-family: Poppins;
+     color: var(--pure);
+     text-align: center;
+ }
+ section .section-heading span{
+     color: var(--primary);
+ }
+ section .connect{
+     margin: 4rem auto;
+     padding: 5rem auto;
+ }
+ section .connect .avv{
+     align-items: center;
+ }
+ section .avv h3{
+     color: var(--primary);
+     margin: 2.5rem auto;
+     text-align: center;
+     font-size: 4.1rem;
+ }
+ .avv img{
+     display: flex;
+     margin-top: 8rem;
+     margin-bottom: 10rem;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ section .container .msg{
+     margin: 3rem;
+ }
+ section .container .msg h2{
+     font-size: 1.4rem;
+     font-weight: 100;
+ }
+ section .container .msg span{
+     text-transform: uppercase;
+     color: var(--primary);
+     font-size: 3.3rem;
+     font-weight: 400;
+ }
+section.appreciate{
+    padding: 4rem 0;
+     background-color: var(--primary);
+ }
+ section .heading2{
+    font-size: 2.5rem;
+    font-weight: 400;
+    font-family: Poppins;
+    word-spacing: 63px;
+    color: #B9B7FF;
+    text-align: center;
+}
+.cup{
+    opacity: 30%;
+    z-index: -1;
+    transform: translate(3%, 0);
+}
+section{
+    margin-top: 2px;
+    background-color: var(--pure);
+    
+}
+section .rectOutr{
+    height: 620px;
+    border-radius: 5px;
+    background-color: var(--primary);
+    position: relative;
+    width: fit-width;
+    margin: 2rem auto;
+    margin-top:9rem;
+}
+section .rectOutr .rectInner{
+    height: 577px;
+    border-radius: 8px;
+    background-color: var(--pure);
+    position: relative;
+    left: 38%;
+    top: 3%;
+    width: 524px;    
+}
+
+section .rectOutr .rectInner .login{  
+    padding: 1rem;
+    justify-content: center;
+    display: flex;
+}
+section .rectOutr .rectInner h2{
+    font-family: Montserrat;
+    color:var(--primary);
+    font-weight: 400;
+    font-size: 42px;
+}
+
+section .rectOutr .rectInner .loginbox {
+    margin-top: 60px;
+    height: 300px;
+    background: var(--pure);
+    color: var(--primary);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+  
+section .rectOutr .rectInner h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+  
+section .rectOutr .rectInner .loginbox p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+  
+section .rectOutr .rectInner .loginbox input {
+    width: 100%;
+    margin-bottom: 15px;
+}
+  
+section .rectOutr .rectInner .loginbox input[type="text"],
+  input[type="password"] {
+    border: 2px solid;
+    border-radius: 0.3rem;
+    padding: 5px;
+    background: transparent;
+    outline: none;
+    height: 28px;
+    width: 300px;
+    color: var(--primary);
+    font-size: 16px;
+}
+  
+section .rectOutr .rectInner .loginbox input[type="submit"] {
+    border: none;
+    border-color: var(--primary);
+    outline: var(--primary);
+    height: 30px;
+    color: var(--dark);
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+section .rectOutr .rectInner .loginbox .extra a{
+      font-size: 0.7rem;
+      font-weight: 600;
+      justify-content: center;
+      display: flex;
+      color: #000;
+      text-decoration: none;
+      font-family: Montserrat;
+
+}
+section .rectOutr .rectInner .quicklink h1 {
+        overflow: hidden;
+        text-align: center;
+        font-weight: 200;
+        font-size: 12px;
+        font-family: Montserrat;
+        margin-top: 3rem;
+}
+      
+section .rectOutr .rectInner .quicklink  h1:before,
+section .rectOutr .rectInner .quicklink h1:after {
+        background-color: #000;
+        content: "";
+        display: inline-block;
+        height: 2.5px;
+        position: relative;
+        vertical-align: middle;
+        width: 35%;
+}
+      
+section .rectOutr .rectInner .quicklink h1:before {
+        right: 0.5em;
+        margin-left: -50%;
+}
+      
+section .rectOutr .rectInner .quicklink h1:after {
+        left: 0.5em;
+        margin-right: -50%;
+}
+section .rectOutr .rectInner .link{
+    border: none;
+    justify-content: center;
+    padding-left: 2rem;
+    height: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+
+}  
+section .top h1{
+    color: var(--primary);
+    text-align: center;
+    font-size: 3.3rem;
+    font-family: Poppins;
+    letter-spacing: 0.15rem;
+    padding: 1rem 2rem;
+}
+section.upload{
+    background-color:var(--primary);
+    padding: 4rem 0;
+}
+section.upload .uploadclas h2{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 200;
+    color: var(--pure);
+    font-family: Poppins;
+    padding: 1.5rem;
+}
+section .rectupload{
+    border: #000;
+    outline: 0.18rem solid;
+    width: 40rem;
+    height: 30rem;
+    align-items: center;
+    margin-left: 40rem;
+}
+section .rectupload h3{
+    color: var(--pure);
+    font-family:Poppins;
+    font-weight: 400;
+    display: flex;
+    text-align: center;
+    margin-top: 19rem;
+    padding: 0 9rem;
+}
+section .rectupload img{
+    /* width: 40rem; */
+    background-color: transparent;
+}
+section .rectupload h3 span{
+    color:var(--dark);
+    font-size: 1.2rem;
+    font-weight: 600;  
+}
+ section.upload .container{
+    height: 9.5rem;
+    width: 27rem;
+    position: relative;
+  }
+section.upload .wrapper{
+    position: relative;
+    height: 350px;
+    width: 100%;
+    background: var(--primary);
+    border: 2px solid var(--dark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .wrapper .image{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .wrapper img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  /* .wrapper .icon{
+    font-size: 100px;
+    color: #9658fe;
+  } */
+  /* .wrapper .text{
+    font-size: 20px;
+    font-weight: 500;
+    color: #5B5B7B;
+  } */
+  /* .wrapper #cancel-btn i{
+    position: absolute;
+    font-size: 20px;
+    right: 15px;
+    top: 15px;
+    color: #9658fe;
+    cursor: pointer;
+    display: none;
+  } */
+  /* .wrapper #cancel-btn i:hover{
+    color: #e74c3c;
+  } */
+  /* .wrapper .file-name{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding: 8px 0;
+    font-size: 18px;
+    color: #fff;
+    display: none;
+    background: linear-gradient(135deg,#3a8ffe 0%,#9658fe 100%);
+  } */
+  .wrapper.active:hover .file-name{
+    display: block;
+  }
+.wrapper .cstbtn{
+    padding-left: 4rem;
+}
+footer h3{
+    color: var(--pure);
+}
+footer .linkbox a{
+    color: var(--pure);
+    text-decoration: none;
+}
+footer{
+    position: fixed;
+    bottom: 0rem;
+    width: 100%;
+    background-color: #000;
+}
+.footerleft{
+    display: flex;
+}
+.footerleft p{
+    color: var(--pure);
+}
+
+
+  
