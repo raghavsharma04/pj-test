@@ -498,5 +498,26 @@ section.upload .wrapper{
 .wrapper .cstbtn{
     padding-left: 4rem;
 }
+footer h3{
+    color: var(--pure);
+}
+footer .linkbox a{
+    color: var(--pure);
+    text-decoration: none;
+}
+footer{
+    position: fixed;
+    bottom: 0rem;
+    width: 100%;
+
+    background-color: #000;
+}
+.footerleft{
+    display: flex;
+}
+/* footer .footer{
+span {
+  content: \00A9;
+} */
 
   
