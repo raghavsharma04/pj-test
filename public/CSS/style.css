@@ -237,13 +237,16 @@ section.appreciate{
  }
  section .heading2{
     font-size: 2.5rem;
-    font-weight: 100;
+    font-weight: 400;
     font-family: Poppins;
-    color: var(--pure);
+    word-spacing: 63px;
+    color: #B9B7FF;
     text-align: center;
 }
 .cup{
-    opacity: 6;
+    opacity: 30%;
+    z-index: -1;
+    transform: translate(3%, 0);
 }
 section{
     margin-top: 2px;
